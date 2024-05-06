@@ -23,9 +23,6 @@ jobs:
       - name: Generate build artifacts
         run: trunk build --release --public-url /uoeo-eportfolio/
 
-      - name: List contents
-        run: ls -al .
-
       - name: Publish contents of dist folder to root directory on gh-pages branch
         uses: rayluo/github-pages-overwriter@v1.3
         with:
