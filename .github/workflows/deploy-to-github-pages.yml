@@ -1,0 +1,25 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Trunk
+        run: cargo install --locked trunk
+
+      - name: Check out
+        uses: actions/checkout@v3
+
+      - name: Generate build artifacts
+        run: trunk build --release
+
+      - name: Publish contents of dist folder to root directory on gh-pages branch
+        uses: rayluo/github-pages-overwriter@v1.3
+        with:
+          source-directory: dist
+          target-branch: gh-pages
