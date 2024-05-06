@@ -2,8 +2,3 @@
 ```bash
 trunk serve
 ```
-
-# Build release
-```bash
-trunk build --release
-```
