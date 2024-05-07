@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<base href="/uoeo-eportfolio/" />
+		<meta charset="utf-8" />
+		<meta name="author" content="Adriaan Joubert" />
+		<meta name="description" content="University of Essex Online E-Portfolio" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>University of Essex Online E-Portfolio</title>
+	
+<link rel="modulepreload" href="/uoeo-eportfolio/uoeo-eportfolio-1796bef17aeac4b2.js" crossorigin=anonymous integrity="sha384-JEXubcmWc8dL2KSvEd4m6f66GVd9BJ0V47+PBkHxFYglWkxPWsBIG9FeOCIjZpAw">
+<link rel="preload" href="/uoeo-eportfolio/uoeo-eportfolio-1796bef17aeac4b2_bg.wasm" crossorigin=anonymous integrity="sha384-vQRFn8y37i77m5CHrgwvxFNm0elgaOTLikH8T643w+KZO+AbVG2ijUCI4Evnq/ZL" as="fetch" type="application/wasm"></head>
+	<body>
+	
+<script type="module">
+import init, * as bindings from '/uoeo-eportfolio/uoeo-eportfolio-1796bef17aeac4b2.js';
+const wasm = await init('/uoeo-eportfolio/uoeo-eportfolio-1796bef17aeac4b2_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
