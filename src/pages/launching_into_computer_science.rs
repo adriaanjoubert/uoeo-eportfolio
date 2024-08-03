@@ -19,7 +19,7 @@ pub fn launching_into_computer_science_page() -> Html {
                     { "Critically evaluate the functionality of different types of software, i.e., operating system, utility programs, languages and applications." }
                 </li>
                 <li>
-                    { "Critically appraise the emerging trends in the field, such as cloud computing, big data, cyber security, and the professional and ethical requirements for dealing with such contemporary computer-based technologies. "}
+                    { "Critically appraise the emerging trends in the field, such as cloud computing, big data, cyber security, and the professional and ethical requirements for dealing with such contemporary computer-based technologies."}
                 </li>
             </ul>
         </>
