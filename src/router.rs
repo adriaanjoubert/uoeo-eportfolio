@@ -45,16 +45,8 @@ fn switch(routes: Route) -> Html {
 #[function_component(Router)]
 pub fn router() -> Html {
     html! {
-        <section class="section-py first-section-pt">
-            <div class="container">
-                <div class="row g-6">
-                    <div class="col-lg-8 offset-lg-2">
-                        <BrowserRouter>
-                            <Switch<Route> render={switch} />
-                        </BrowserRouter>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <BrowserRouter>
+            <Switch<Route> render={switch} />
+        </BrowserRouter>
     }
 }
