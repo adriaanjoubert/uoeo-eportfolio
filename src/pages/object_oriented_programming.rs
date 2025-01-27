@@ -98,10 +98,10 @@ pub fn object_oriented_programming_page() -> Html {
                             </ul>
                             <h2>{ "References" }</h2>
                             <ul>
-                                <li>{ "Alchin, M. (2010) 'PEP 8 Style Guide for Python', in: Alchin, M. Pro Python. United States: Apress L. P." }</li>
-                                <li>{ "Padhy, N., Satapathy, S. & Singh, R.P. (2017) ‘State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review’, in: Smart Computing and Informatics. Singapore: Springer Singapore Pte. Limited (Smart Innovation, Systems and Technologies). 431–441. Available from: https://doi.org/10.1007/978-981-10-5544-7_42." }</li>
-                                <li>{ "Padhy, N., Satapathy, S. & Singh, R.P. (2017) ‘State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review’, in: Smart Computing and Informatics. Singapore: Springer Singapore Pte. Limited (Smart Innovation, Systems and Technologies). 431–441. Available from: https://doi.org/10.1007/978-981-10-5544-7_42." }</li>
-                                <li>{ "University of Essex Online (N.D.) A short guide to Reflective Writing." }</li>
+                                <li>{ "Alchin, M. (2010) ‘PEP 8 Style Guide for Python’, in Pro Python. Apress L. P." }</li>
+                                <li>{ "Kernighan, B.W. and Ritchie, D.M. (1988) The C Programming Language. 2nd edn. United States: Prentice Hall." }</li>
+                                <li>{ "Padhy, N., Satapathy, S. and Singh, R.P. (2017) ‘State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review’, in Smart Computing and Informatics. Singapore: Springer Singapore Pte. Limited (Smart Innovation, Systems and Technologies), pp. 431–441. Available at: https://doi.org/10.1007/978-981-10-5544-7_42." }</li>
+                                <li>{ "University of Essex Online (no date) ‘A short guide to Reflective Writing’." }</li>
                             </ul>
                         </div>
                     </div>
