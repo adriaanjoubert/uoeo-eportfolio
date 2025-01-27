@@ -62,7 +62,7 @@ pub fn object_oriented_programming_page() -> Html {
                             </p>
                             <h2>{ "Unit 5" }</h2>
                             <p>
-                                { "I studied inheritance." }
+                                { "I studied inheritance and how it can be overused. For example, inheriting overlapping interfaces from multiple superclasses can be a sign of bad design. Alternative approaches could include association and/or composition." }
                             </p>
                             <h2>{ "Unit 6" }</h2>
                             <p>
