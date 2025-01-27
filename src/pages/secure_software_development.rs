@@ -23,7 +23,7 @@ pub fn secure_software_development_page() -> Html {
                                     { "Design and develop/adapt computer programs and to produce a solution that meets the design brief and critically evaluate solutions that are produced." }
                                 </li>
                                 <li>
-                                    { "Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation."}
+                                    { "Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation." }
                                 </li>
                             </ul>
                             <h1>{ "Reflections" }</h1>
